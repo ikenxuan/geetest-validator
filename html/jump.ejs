@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证码中间页</title>
+    <style>
+        body {
+            background: #f1f2f4;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .border-box {
+            width: 500px;
+            height: 210px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 30px;
+            background: #ffffffa8;
+            position: relative;
+            /* 将.border-box设置为相对定位 */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #3195ff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="border-box">
+            <h2>此处为验证码中间页</h2>
+            跳转后请务必验证，不然这个验证码就失效了，需要重新获取<br>
+            <h4>如果您不验证请不要点击跳转!</h4>
+            <a href='<%= targetUrl %>' class="button">
+                点击前往验证
+            </a>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+</html>

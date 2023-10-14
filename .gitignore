@@ -1,0 +1,6 @@
+.idea/
+yarn.lock
+pnpm.lock
+node_modules/
+data/
+logs/
