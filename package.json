@@ -1,26 +1,27 @@
 {
-    "name": "geetest-validator",
-    "version": "1.0.0",
-    "description": "",
-    "type": "module",
-    "main": "app.js",
-    "scripts": {
-      "app": "node app.js",
-      "start": "pm2 start pm2.json",
-      "stop": "pm2 stop pm2.json",
-      "log": "pm2 log geetest-validator",
-      "restart": "pm2 restart pm2.json"
-    },
-    "author": "",
-    "dependencies": {
-      "fastify": "^4.18.0",
-      "@fastify/static": "^6.10.2",
-      "@fastify/multipart": "^8.0.0",
-      "@fastify/formbody": "^7.4.0",
-      "@fastify/websocket": "^8.1.0",
-      "public-ip": "^6.0.1",
-      "yaml": "^2.3.3",
-      "art-template": "^4.13.2",
-      "pm2": "^5.3.0"
-    }
+  "name": "geetest-validator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "app": "node app.js",
+    "start": "pm2 start pm2.json",
+    "stop": "pm2 stop pm2.json",
+    "log": "pm2 log geetest-validator",
+    "restart": "pm2 restart pm2.json"
+  },
+  "author": "",
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/multipart": "^8.0.0",
+    "@fastify/static": "^6.10.2",
+    "@fastify/websocket": "^8.1.0",
+    "art-template": "^4.13.2",
+    "fastify": "^4.18.0",
+    "fastify-multipart": "^5.4.0",
+    "pm2": "^5.3.0",
+    "public-ip": "^6.0.1",
+    "yaml": "^2.3.3"
   }
+}
